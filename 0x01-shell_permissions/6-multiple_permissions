@@ -1,2 +1,2 @@
 #!/bin/bash
-su bin
+chmod ug+x,o+r hello

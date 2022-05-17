@@ -2,5 +2,5 @@
 #ls
 for i in .
 do
-ls | cut -d "-" -f 2,3
+ls | cut -d "-" -f 2-
 done

@@ -18,7 +18,5 @@ else
     if
 	[ -f $FILE ];
     then
-	echo "$FILE school is a regular file"
-    else
-	echo "$FILE"
+	echo "$FILE school is a regular fil"
 	fi

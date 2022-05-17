@@ -11,7 +11,8 @@ do
 	[ $x -eq 8 ]
     then
     echo "good luck"
-    else
-	[ $x -le 10 ]
+    else    
+	echo "Best School"
     fi
+    ((x++))
     done

@@ -1,20 +1,19 @@
 #!/usr/bin/env bash
 #multipliers
-
 for x in {1..100}
 do
     if
-	(( 15 % x == 0 ))
+	(( x % 15 == 0 ))
     then
 	echo "FizzBuzz"
 	elif
-	    (( x % 3 == 0 ))
+	    (( x % 5 == 0 ))
 	then
-	    echo "Fizz"
+	    echo "Buzz"
 	    elif
-		(( x % 5 == 0 ))
+		(( x % 3 == 0 ))
 	    then
-		echo "Buzz"
+		echo "Fizz"
 	    else
 		echo "$x"
 		fi

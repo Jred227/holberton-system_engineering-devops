@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#multipliers
+x=1
+while [ "$x" -le 100 ]
+do
+    echo "$x"
+    x=("$Buzz" * 5);
+    ((x++))
+done

@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 # killing_number_7
-
-pkill -f -SIGKILL "7-highlander"
+pkill -f -SIGKILL $"7-highlander"
